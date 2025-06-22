@@ -4,7 +4,7 @@
 
 type numberArr = number[];
 
-function sum(arr : numberArr) : number {
+function sum2(arr : numberArr) : number {
     let total = 0;
     for (let i = 0; i < arr.length; i++) {
         total += arr[i];
@@ -12,7 +12,7 @@ function sum(arr : numberArr) : number {
     return total;
 }
 
-sum([1, 2, 3, 4, 5]); 
+sum2([1, 2, 3, 4, 5]); 
 
 // In case of Arrays in typescript, we have to just only use [] in front of the primitive data type of each member of the array.
 

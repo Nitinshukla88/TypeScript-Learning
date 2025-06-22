@@ -1,13 +1,13 @@
 "use strict";
 // In this file, we will explore how to assign types to arrays in TypeScript.
-function sum(arr) {
+function sum2(arr) {
     let total = 0;
     for (let i = 0; i < arr.length; i++) {
         total += arr[i];
     }
     return total;
 }
-sum([1, 2, 3, 4, 5]);
+sum2([1, 2, 3, 4, 5]);
 function aboveLegalAge(users) {
     for (let i = 0; i < users.length; i++) {
         if (users[i].age >= 18) {

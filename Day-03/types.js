@@ -1,8 +1,6 @@
 "use strict";
 // Types and Interfaces in TypeScript are very very closely similar. One difference is that with types you have to use = sign to assign a type to a variable, whereas with interfaces you use the keyword interface.
 // Types are used to define the types of fields inside any object if that object is being passed into any function.
-
-// One similarity between them is they let you aggreagate data types together.
 function isAdult(user) {
     if (user.age >= 18) {
         return true;
